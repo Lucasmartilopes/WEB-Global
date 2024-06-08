@@ -1,0 +1,40 @@
+/* headerStyles.module.css */
+
+.header {
+    background-color: #0077be; /* Cor do oceano */
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav ul li {
+    margin: 0;
+  }
+  
+  .header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .header nav ul li a:hover {
+    color: #00aaff; /* Cor mais clara para o hover */
+  }
+  

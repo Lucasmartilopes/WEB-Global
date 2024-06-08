@@ -1,0 +1,50 @@
+/* landingPageStyles.module.css */
+
+.landingPage {
+    background-image: url('../public/tartaruga.jpg');
+    height: 100vh;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .landingPage h2 {
+    color: #0077be;
+    margin-bottom: 1rem;
+  }
+  
+  .landingPage p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .productCard {
+    background-color: transparent;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .productImage {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .productCard h3 {
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .productCard p {
+    font-size: 1rem;
+  }
+  
